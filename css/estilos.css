@@ -47,3 +47,14 @@ footer{
     background-color:#92CCFF;
     font-weight: bold;
 }
+
+.rutas-turisticas{
+    font-size: 1.2rem;
+    background-color:#92CCFF;
+}
+
+.tabla{
+    background-color: #F0F8FF;
+    border-collapse: collapse;
+    width: 100%;
+}

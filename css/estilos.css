@@ -58,3 +58,17 @@ footer{
     border-collapse: collapse;
     width: 100%;
 }
+.historia{
+    background-color: #F0F8FF;
+    font-size: 1.2rem;
+}
+
+.etnias{
+    background-color: #92CCFF;
+    font-size: 1.2rem;
+}
+
+.gastronomia{
+    background-color:#F0F8FF;
+    font-size: 1.2rem;
+}

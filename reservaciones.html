@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honduras: Conoce tu Tierra</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Honduras: Conoce tu Tierra</h1>
+        <p>Descrubre Honduras: Historia, Naturaleza y Cultura 5 Estrellas</p>
+    </header>
+    <nav class="menu-navegacion">
+        <ul>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="cultura.html"> Cultura</a></li>
+            <li><a href="reservaciones.html">Reservaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="formulario">
+            <h2>Haz tu Reserva Aqui</h2>
+            <form action="#" method="post">
+            <div>
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu NOmbre">
+            </div>
+            <br>
+            <div>
+                <label for="telefono">Numero Telefonico:</label><br>
+                <input type="text" id="telefono" name="telefono" placeholder="xxxx-xxxx">
+            </div>
+            <br>
+            <div>
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="nombre@correo.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="ruta-turistica">Ruta Turistica:</label><br>
+                <select id="ruta-turistica" name="ruta-turistica">
+                    <option value="ruta-maya" selected >Ruta Maya y Arqueologia</option>
+                    <option value="ruta-lenca">Ruta Lenca y Pueblos con Encanto</option>
+                    <option value="ruta-ecoturismo">Ecoturismo y Bosques Nublados</option>
+                    <option value="ruta-caribe">Ruta del Caribe y Arrecifes</option>
+                </select>
+            </div>
+            <br>
+             <div>
+                <label>Fecha Inicio</label>
+                <input type="date" name="inicio" id="inicio" min="2026-10-12">
+            </div>
+            <br>
+             <div>
+                <label>Fecha Fin</label>
+                <input type="date" name="fin" id="fin" min="2026-10-12">
+            </div>
+            <br>
+            <div>
+                <label>Visitantes Adultos</label>
+                <input type="number" name="adultos" id="adultos" min="1">
+            </div>
+            <br>
+            <div>
+                <label>Visitantes Menores</label>
+                <input type="number" name="menores" id="menores" min="0">
+            </div>
+            <br>
+            <div>
+                <label for="ruta-turistica">Tipo de Hospedaje:</label><br>
+                <select id="tipo-hospedaje" name="tipo-hospedaje">
+                    <option value="cabania-ecologica" selected >Cabaña Ecologica</option>
+                    <option value="hotel-colonial">Hotel Colonial</option>
+                    <option value="campamento-montania">Campamento de Montaña</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Necesitas un Guia Bilingüe?</label><br>
+                <input type="radio" id="si" name="guia-bilingue" value="si">
+                <label for="si">Si</label><br>
+                <input type="radio" id="no" name="guia-bilingue" value="no">
+                <label for="no">No</label><br>
+            </div>
+            <br>
+            <div>
+                <label for="necesidad">Tienes alguna Necsidad Especial? Dejanos tu mensaje para saberlo:</label><br>
+                <textarea id="necesidad" name="necesidad" rows="5"></textarea>
+            </div>
+            <br>
+            <button type="submit">Enviar Mensaje</button>
+      </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2026 Honduras: Conoce tu Tierra. Todos los derechos reservados.</p>
+        <p>Portal desarrollado para la asignatura <strong>ISC-305 Programación Web</strong> | UNAH.</p>
+        <p>Desarrollado por Francisco Emanuel Cruz Gomez 20201002174</p>
+    </footer>
+</body>
+</html>
